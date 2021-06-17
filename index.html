@@ -36,6 +36,11 @@
       media="all"
     />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <style>
+      #about-text {
+        text-transform: capitalize;
+      }
+    </style>
   </head>
 
   <body class="dark">
@@ -401,9 +406,9 @@
                 <div class="row">
                   <div class="col-md-6">
                     <!-- about text -->
-                    <p>
-                      I am Ajmal Ponneth, web developer from India, Kerala. I
-                      Have rich experience in website design,building and
+                    <p id="about-text">
+                      I am Ajmal Ponneth, Software Engineer from India, Kerala.
+                      I Have rich experience in website design,building and
                       customization, also I am good at Android
                       Development.Contact me with your creative and valuable
                       projects ideas with me.I like to create responsive and
@@ -498,7 +503,14 @@
             <div class="col-md-4">
               <!-- service box -->
               <div
-                class="service-box rounded data-background padding-30 text-center text-light shadow-blue"
+                class="
+                  service-box
+                  rounded
+                  data-background
+                  padding-30
+                  text-center text-light
+                  shadow-blue
+                "
                 data-color="#6C6CE5"
               >
                 <img src="images/service-1.svg" alt="UI/UX design" />
@@ -515,7 +527,14 @@
             <div class="col-md-4">
               <!-- service box -->
               <div
-                class="service-box rounded data-background padding-30 text-center shadow-yellow"
+                class="
+                  service-box
+                  rounded
+                  data-background
+                  padding-30
+                  text-center
+                  shadow-yellow
+                "
                 data-color="#F9D74C"
               >
                 <img src="images/service-2.svg" alt="UI/UX design" />
@@ -532,7 +551,14 @@
             <div class="col-md-4">
               <!-- service box -->
               <div
-                class="service-box rounded data-background padding-30 text-center text-light shadow-pink"
+                class="
+                  service-box
+                  rounded
+                  data-background
+                  padding-30
+                  text-center text-light
+                  shadow-pink
+                "
                 data-color="#F97B8B"
               >
                 <img
@@ -573,7 +599,15 @@
             <div class="col-md-6">
               <!-- timeline wrapper -->
               <div
-                class="timeline edu bg-dark rounded shadow-light padding-30 overflow-hidden"
+                class="
+                  timeline
+                  edu
+                  bg-dark
+                  rounded
+                  shadow-light
+                  padding-30
+                  overflow-hidden
+                "
               >
                 <!-- timeline item -->
                 <div class="timeline-container wow fadeInUp">
@@ -679,7 +713,15 @@
               <h4 class="mt-3 mb-0">John Doe</h4>
               <span class="subtitle">Product designer at Dribbble</span>
               <div
-                class="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4"
+                class="
+                  bg-dark
+                  padding-30
+                  shadow-light
+                  rounded
+                  triangle-top
+                  position-relative
+                  mt-4
+                "
               >
                 <p class="mb-0">
                   I enjoy working with the theme and learn so much. You guys
@@ -696,7 +738,15 @@
               <h4 class="mt-3 mb-0">John Smith</h4>
               <span class="subtitle">Product designer at Dribbble</span>
               <div
-                class="bg-dark padding-30 shadow-light rounded triangle-top position-relative mt-4"
+                class="
+                  bg-dark
+                  padding-30
+                  shadow-light
+                  rounded
+                  triangle-top
+                  position-relative
+                  mt-4
+                "
               >
                 <p class="mb-0">
                   I enjoy working with the theme and learn so much. You guys
@@ -744,7 +794,7 @@
                         required="required"
                         data-error="Name is required."
                       />
-                      <div class="help-block with-errors"></div>
+                      <div id="namecheck" class="help-block with-errors"></div>
                     </div>
                   </div>
 
